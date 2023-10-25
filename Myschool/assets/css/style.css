@@ -1,0 +1,160 @@
+.logo{
+    width: 100px;
+    margin: 5px;
+    border-radius:10%;
+}
+.bg-theme{
+    background-color:  #132f57;
+    padding: 0px;
+}
+.brand-logo{
+    width: 50px;
+    display: none;
+
+}
+.logo-head{
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: emoji;
+}
+.ico-icon{
+       margin-top: 10px;
+    position: absolute;
+    right: 0;
+}
+.ico-icon .fab{
+    color: blue;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 52px;
+    height: 52px;
+    background: white;
+    border-radius: 100%;
+    text-align: center;
+}
+.ico-icon .fab:hover{
+    background-color: yellow;
+    width: 55px;
+    height: 55px;
+    border-color: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    margin-right:120px;
+        padding-left: 13px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:black;
+    background-color: #ffb516;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:black;
+    background-color: #ffb516;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.outer-right{
+    background-color:none;
+  padding: 90px;  
+}
+
+/* sticky */
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    }
+.sticky + .Content{
+margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .ico-icon.fab{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+             padding: 8px;
+    }
+    .logo-head{
+        font-size: 17px;
+        margin-top: 23px;
+        .navbar-light .navbar-nav .nav-link {
+            margin-left:0px;
+        }
+    }
+}
+.mrq{
+    padding:200px 0px 122px;
+    text-align: center;
+    background-image: url(../images/sir\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mrq2{
+    padding:200px 0px 122px;
+    text-align: center;
+    background-image: url(../images/sir\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mrq3{
+    padding:200px 0px 122px;
+    text-align: center;
+    background-image: url(../images/sir\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mrq b, .mrq2 b, .mrq3 b{
+color: #ffb516;
+background-color: red;
+}
+.mrq h3, .mrq2 h3 , .mrq3 h3{
+    color: black;
+    background-color:none;
+    }
+.get-btn{
+    background:rgb(83, 8, 223);
+      color: black;
+    font-weight: bold;
+        border:1px solid rgb(227, 15, 15);
+   
+}
+.get-btn:hover{
+    background-color: white;    
+    cursor: pointer;
+}
+.footer{
+    background-color: #132f57;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+margin-top: 50px;
+}
+.mcca{
+    text-align: center;
+    color: red;
+    }
+    .p{
+        text-align: justify;
+    }
+    .photo{
+        text-align: center;
+        color: red;
+    }
